@@ -3,14 +3,10 @@ HttpInteract
 
 A http client providing context with simple API based on HttpClient 4.3
 
-
+A Java Example
+------------
 public class Test {
 	
-	/**
-	 * @param args
-	 * @throws IOException 
-	 * @throws IllegalStateException 
-	 */
 	public static void main(String[] args) throws IllegalStateException, IOException {
 			RequestObject obj = new RequestObject();
 			obj.setRequestType(RequestType.POST);
@@ -26,7 +22,8 @@ public class Test {
 			
 			System.out.println(RequestManager.parseResponse(response));
 		}
-	}
-	
-	
+	}	
 }
+
+Integration with Spring
+-----------------------
