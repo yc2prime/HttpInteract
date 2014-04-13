@@ -66,6 +66,7 @@ Examples
 	    </bean>
 	</beans>
 And init and use the request manager like this:
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ApplicationContext context = new 
