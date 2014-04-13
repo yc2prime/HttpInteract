@@ -5,7 +5,7 @@ package com.zkhy.http;
 
 /**
  * 概要：请求类型枚举
- * @author Yachen ZHU
+ * @author yc2prime
  * @version 1.0.0
  * @date 2014-1-25 
  */

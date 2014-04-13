@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
 
 /**
  * 概要：请求配置类
- * @author yachen
+ * @author yc2prime
  * @version 1.0.0
  * @date 2014-3-15 
  */

@@ -26,7 +26,7 @@ import org.apache.http.util.EntityUtils;
 
 /**
  * 概要：HTTP请求管理器
- * @author Yachen ZHU
+ * @author yc2prime
  * @version 2.0.0
  * @date 2014-1-25 
  */

@@ -27,7 +27,7 @@ import org.apache.http.message.BasicNameValuePair;
 
 /**
  * 概要：HTTP请求对象
- * @author Yachen ZHU
+ * @author yc2prime
  * @version 2.0.0
  * @date 2014-1-25 
  */

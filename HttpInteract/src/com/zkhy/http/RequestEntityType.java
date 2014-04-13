@@ -5,7 +5,7 @@ package com.zkhy.http;
 
 /**
  * 概要：请求Entity类型
- * @author yachen
+ * @author yc2prime
  * @version 2.0.0
  * @date 2014-4-6 
  */

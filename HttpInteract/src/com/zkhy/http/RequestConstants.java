@@ -5,7 +5,7 @@ package com.zkhy.http;
 
 /**
  * 概要：请求使用的常量
- * @author Yachen ZHU
+ * @author yc2prime
  * @version 1.0.0
  * @date 2014-1-25 
  */
