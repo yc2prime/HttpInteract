@@ -5,7 +5,7 @@ A http client providing context with simple API based on HttpClient 4.3
 
 Introducton
 --------------------
-Request manager is a single instance object that manager all the requests and responses.
+Request manager is a singleton that manages all the requests and responses.
 
 
 Examples
@@ -65,10 +65,10 @@ Examples
 	        </property>
 	    </bean>
 	</beans>
-And init and use the request manager like this:
+
+Init and use the request manager like this:
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ApplicationContext context = new 
 				ClassPathXmlApplicationContext("classpath:applicationContext.xml");
 		RequestManager manager = context.getBean("requestConfig", RequestManager.class);
