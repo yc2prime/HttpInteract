@@ -4,12 +4,14 @@ HttpInteract
 A http client providing context with simple API based on HttpClient 4.3
 
 Introducton
------------
+--------------------
 Request manager is a single instance object that manager all the requests and responses.
 
-A Java Example
-------------
-	
+
+Examples
+--------------------
+
+### A Java Example
 public static void main(String[] args) throws IllegalStateException, IOException {
 	RequestObject obj = new RequestObject();
 	obj.setRequestType(RequestType.POST);
@@ -26,8 +28,7 @@ public static void main(String[] args) throws IllegalStateException, IOException
 	System.out.println(RequestManager.parseResponse(response));
 }
 
-Integration with Spring (applicationContext.xml)
------------------------
+### Integration with Spring (applicationContext.xml)
 <?xml version="1.0" encoding="UTF-8"?>
 <beans
     xmlns="http://www.springframework.org/schema/beans"
@@ -63,10 +64,7 @@ Integration with Spring (applicationContext.xml)
         </property>
     </bean>
 </beans>
-
 And init and use the request manager like this:
-
-
 public static void main(String[] args) {
 	// TODO Auto-generated method stub
 	ApplicationContext context = new 
