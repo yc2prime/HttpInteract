@@ -8,6 +8,7 @@ HttpInteract 是一个基于 Apache HttpClient 4.3 的客户端实现，提供�
 特性
 --------------------
 HttpInteract的主要特点如下：
+
 1. API简单一致，putParam方法可以放入String, byte[], InputStream, File，并且支持链式调用，支持分块发送请求。
 2. 全局单例的管理器，支持与服务进行上下文会话，使用了连接池的实现方法，可定制的网络参数，实现了高效的内存使用。
 3. 当前大部分服务器不支持PUT和DELETE的Http请求，HttpInteract进行了优化，可以直接发送PUT和DELETE请求。
